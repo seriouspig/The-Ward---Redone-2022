@@ -1,0 +1,47 @@
+.photo {
+    height: 100px;
+    image-rendering: pixelated;
+}
+
+.flex-container {
+    display: flex;
+}
+
+
+.component {
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    font-size: 10px
+  }
+
+  .patient-data{
+    font-size: 12px;
+    margin-bottom: 8px;
+    margin-top: 0px
+  }
+
+  .ward-patient {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    font-size: 75%;
+  }
+
+  .waiting-button {
+    font-family:'Press Start 2P', cursive;
+    background-color: red;
+    color:white;
+    border: 3px black solid;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .waiting-button:hover {
+      background-color: rgb(1, 199, 1);
+      color: black;
+  }
+
+  .health-bar{
+    margin-bottom: 10px;
+  }

@@ -1,0 +1,29 @@
+.popup-container {
+    position: fixed;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 15px;
+    justify-content: center;
+    gap: 1em;
+    width: 50vw;
+
+    background-color: white;
+    border: 3px black solid;
+    border-radius: 15px;
+}
+.close-button {
+    text-decoration: underline;
+    color:red;
+    justify-self: flex-end;
+    cursor: pointer;
+}

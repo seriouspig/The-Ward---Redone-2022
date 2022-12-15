@@ -1,0 +1,12 @@
+.scores{
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+.timer{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}

@@ -1,0 +1,71 @@
+.main-grid{
+    display: grid;
+    grid-template-columns: 1.3fr 5fr;
+    grid-template-rows: 1fr 1fr 1fr 10fr;
+    grid-template-areas: 
+      "scoreboard waiting-room"
+      "counter waiting-room"
+      "glossary waiting-room"
+      "glossary ward";
+      border:black solid 8px;
+}
+
+.scoreboard{
+    grid-area: scoreboard;
+    border: black solid 8px;
+    padding: 5px;
+    background-color: black;
+}
+
+.counter {
+    grid-area: counter;
+    border: black solid 8px;
+    padding: 5px;
+    background-color: black;
+}
+
+.glossary{
+    grid-area: glossary;
+    border: black solid 8px;
+    padding: 5px
+}
+
+.waiting-room{
+    background-image: url('waiting_room.png');
+    background-size: 100%;
+    grid-area: waiting-room;
+    border: black solid 8px;
+    padding: 5px
+}
+
+.ward{
+    background-image: url('ward_background.png');
+    background-size: 100%;
+    grid-area: ward;
+    border: black solid 8px;
+    padding: 5px
+}
+
+.popup-content{
+    text-align: center;
+}
+
+.game-over{
+    font-size: 60px;
+    color: red;
+}
+
+.score{
+    font-size: 40px;
+}
+
+.play-again{
+    background-color: red;
+    color: white;
+    border: black solid 5px;
+    font-size: 40px;
+    padding: 10px;
+    font-family:'Press Start 2P', cursive;
+
+}
+

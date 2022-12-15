@@ -1,0 +1,40 @@
+.popuplarge-container {
+    width: 100vw;
+    height: 100vh;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.popuplarge {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 15px;
+    justify-content: center;
+    gap: 1em;
+    height: 100%;
+    width: 80%;
+    overflow-y: scroll;
+
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+   
+}
+.close-buttonlarge {
+    text-decoration: underline;
+    color:red;
+    justify-self: flex-end;
+    cursor: pointer;
+}
+
+.messagelarge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
